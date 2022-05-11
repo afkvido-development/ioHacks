@@ -1,0 +1,32 @@
+{
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2022-05-11T07:58:09.309Z",
+    "redirects": [
+        {
+            "description": "{ioGame name} hack",
+            "exampleUrl": "https://slay.one/dist/client-bundle.js",
+            "exampleResult": "https://one.afkvido.repl.co/clientbundle.js",
+            "error": null,
+            "includePattern": "https://slay.one/dist/client-bundle.js",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://one.afkvido.repl.co/clientbundle.js",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "imageset",
+                "object",
+                "xmlhttprequest",
+                "history",
+                "other"
+            ]
+        }
+    ]
+}
