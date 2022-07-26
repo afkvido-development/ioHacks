@@ -27,8 +27,8 @@ console.log("%c{ioGame name} Patcher: loader.js", "font-size:20px;color:#540052;
 
     /* ----------- BEGIN HACK STATUS  ----------- */
 
-    /*  REPLACE afkvido-development/ioHacks WITH YOUR REPOSITORY.  */
-    fetch(`https://raw.githubusercontent.com/afkvido-development/ioHacks/master/status.json?updated=${Date.now()}`).then(response => response.json()).then(async data => {
+    /*  REPLACE afkvido-development/ioXSS WITH YOUR REPOSITORY.  */
+    fetch(`https://raw.githubusercontent.com/afkvido-development/ioXSS/master/status.json?updated=${Date.now()}`).then(response => response.json()).then(async data => {
                 if (data.offline == true) {
                     eval(await (await fetch("https://unpkg.com/sweetalert2")).text())
                     if (swal) {
@@ -68,8 +68,8 @@ console.log("%c{ioGame name} Patcher: loader.js", "font-size:20px;color:#540052;
 
     (async () => { /* Asynchronous function won't hold up the program. */
         /* Load the remote code. This'll be used for hack status, hotfixes, etc. */
-        /*  REPLACE afkvido-development/ioHacks WITH YOUR REPOSITORY.  */
-        eval(await (await fetch(`https://raw.githubusercontent.com/afkvido-development/ioHacks/master/assets/remote.js?updated=${Date.now()}`)).text());
+        /*  REPLACE afkvido-development/ioXSS WITH YOUR REPOSITORY.  */
+        eval(await (await fetch(`https://raw.githubusercontent.com/afkvido-development/ioXSS/master/assets/remote.js?updated=${Date.now()}`)).text());
          /* ?updated parameter is so browser ignores cached version */
     })()
 
